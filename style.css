@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+   
+   padding: 25px;
+}
+
+/* header */
+.header{
+    display: flex;
+    
+}
+.header-box{
+    width: 33%;
+}
+#subscribe{
+   color: rgb(90, 90, 90);
+   font-size: large; 
+   align-self: center;
+   text-decoration: underline;
+}
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#search{
+    text-align: end;
+}
+.search-text{
+    padding-left: 10px;
+    color: rgb(255, 0, 179);
+    border-radius: 15px;
+    height: 25px;
+}
+
+/* middle */
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    row-gap: 10px;
+    justify-content: center;
+    
+}
+.box{
+    padding: 10px;
+    width: 49%;
+    border: 3px solid rgb(201, 201, 201);
+    box-shadow: 5px 5px 5px rgb(87, 4, 4);
+    height: 200px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+.text1{
+    font-size: large;
+    color:rgb(0, 174, 255);
+    font-weight: bolder;
+}
+.text2{
+    font-size: large;
+    color: green;
+    font-weight: bolder;
+
+}
+.seched{
+    color: black;
+}
+.date{
+    color: rgb(82, 81, 81);
+}
+.text{
+    margin-top: 3px;
+    color: black;
+    
+}
+.conread{
+    
+    text-decoration-line: underline;
+}
+.conread:hover{
+    color: red;
+}
+/* making responsive */
+@media(max-width:570px)
+{
+    .box{
+        width: 99%;
+        border: 3px solid gray;
+        height: 185px;
+    }
+
+}
+@media(min-width:870px)
+{
+    .box{
+        width: 32%;
+        border: 3px solid gray;
+        height: 195px;
+    }
+}
+
+/* index1.html properties */
+.wrapper1{
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(206, 206, 206);
+}
+.middle{
+    display: grid;
+    
+    grid-template-columns: 2.5fr 1fr;
+}
+/* .middleBox{
+    
+    
+} */
+#date1{
+    text-align: center;
+}
+.newText{
+    font-size: large;
+}
+.olderpost,.newerpost{
+    color: blue;
+    margin: 5px;
+    border: 2px solid rgb(255, 0, 179);
+    border-radius: 17px;
+    font-size: larger;
+    padding: 4px;
+}
+#second{
+    margin-left: 30px;
+}
+.italic{
+    
+    font-style: italic;
+    font-size: large;
+}
+.underline{
+    color: blue;
+    text-decoration: underline;
+}
+.underline:hover{
+    font-size: larger;
+    color: red;
+    transition: 0.3s;
+}
